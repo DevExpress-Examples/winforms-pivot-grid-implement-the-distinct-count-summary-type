@@ -22,3 +22,4 @@ API in this example:
 * [Summarization](https://docs.devexpress.com/WindowsForms/11728)
 * [Pivot Grid Expression Syntax](https://docs.devexpress.com/CoreLibraries/120512)
 * [Unbound Fields](https://docs.devexpress.com/WindowsForms/1799)
+* [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)

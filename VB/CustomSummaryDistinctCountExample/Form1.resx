@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="excelDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>526, 17</value>
+  </metadata>
+  <data name="excelDataSource1.ResultSchemaSerializable" xml:space="preserve">
+    <value>PFZpZXc+PEZpZWxkIE5hbWU9IkNhdGVnb3J5TmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb3VudHJ5IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlByb2R1Y3ROYW1lIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNhbGVzIFBlcnNvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJPcmRlckRhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJPcmRlcklEIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IlF1YW50aXR5IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkRpc2NvdW50IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkV4dGVuZGVkIFByaWNlIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IlVuaXRQcmljZSIgVHlwZT0iRG91YmxlIiAvPjwvVmlldz4=</value>
+  </data>
   <metadata name="salesPersonBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>144, 17</value>
   </metadata>

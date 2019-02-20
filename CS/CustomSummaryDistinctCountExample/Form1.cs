@@ -24,7 +24,8 @@ namespace CustomSummaryDistinctCountExample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.salesPersonTableAdapter.Fill(this.nwindDataSet.SalesPerson);
+            excelDataSource1.FileName = "SalesPerson.xlsx";
+            excelDataSource1.Fill();
         }
 
         private void PivotGridControl1_CustomSummary(object sender, PivotGridCustomSummaryEventArgs e)

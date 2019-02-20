@@ -22,7 +22,8 @@ Namespace CustomSummaryDistinctCountExample
 		End Sub
 
 		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-			Me.salesPersonTableAdapter.Fill(Me.nwindDataSet.SalesPerson)
+			excelDataSource1.FileName = "SalesPerson.xlsx"
+			excelDataSource1.Fill()
 		End Sub
 
 		Private Sub PivotGridControl1_CustomSummary(ByVal sender As Object, ByVal e As PivotGridCustomSummaryEventArgs)
