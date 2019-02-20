@@ -78,8 +78,7 @@
             this.fieldQuantity1,
             this.fieldDiscount1,
             this.fieldExtendedPrice1,
-            this.fieldSalesPerson1,
-            this.fieldQuantityDistinctCount});
+            this.fieldSalesPerson1});
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.Size = new System.Drawing.Size(775, 447);
@@ -215,15 +214,6 @@
             this.fieldSalesPerson1.Caption = "Sales Person";
             this.fieldSalesPerson1.FieldName = "Sales Person";
             this.fieldSalesPerson1.Name = "fieldSalesPerson1";
-            // 
-            // fieldQuantityDistinctCount
-            // 
-            this.fieldQuantityDistinctCount.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.fieldQuantityDistinctCount.AreaIndex = 1;
-            this.fieldQuantityDistinctCount.Caption = "Count Distinct ";
-            this.fieldQuantityDistinctCount.FieldName = "Quantity";
-            this.fieldQuantityDistinctCount.Name = "fieldQuantityDistinctCount";
-            this.fieldQuantityDistinctCount.SummaryType = DevExpress.Data.PivotGrid.PivotSummaryType.Custom;
             // 
             // Form1
             // 

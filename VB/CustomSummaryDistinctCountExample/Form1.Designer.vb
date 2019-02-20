@@ -61,7 +61,7 @@
 			' 
 			Me.pivotGridControl1.DataSource = Me.excelDataSource1
 			Me.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-			Me.pivotGridControl1.Fields.AddRange(New DevExpress.XtraPivotGrid.PivotGridField() { Me.fieldOrderID1, Me.fieldCountry1, Me.fieldFirstName1, Me.fieldLastName1, Me.fieldProductName1, Me.fieldCategoryName1, Me.fieldOrderDate1, Me.fieldUnitPrice1, Me.fieldQuantity1, Me.fieldDiscount1, Me.fieldExtendedPrice1, Me.fieldSalesPerson1, Me.fieldQuantityDistinctCount})
+			Me.pivotGridControl1.Fields.AddRange(New DevExpress.XtraPivotGrid.PivotGridField() { Me.fieldOrderID1, Me.fieldCountry1, Me.fieldFirstName1, Me.fieldLastName1, Me.fieldProductName1, Me.fieldCategoryName1, Me.fieldOrderDate1, Me.fieldUnitPrice1, Me.fieldQuantity1, Me.fieldDiscount1, Me.fieldExtendedPrice1, Me.fieldSalesPerson1})
 			Me.pivotGridControl1.Location = New System.Drawing.Point(0, 0)
 			Me.pivotGridControl1.Name = "pivotGridControl1"
 			Me.pivotGridControl1.Size = New System.Drawing.Size(775, 447)
@@ -187,15 +187,6 @@
 			Me.fieldSalesPerson1.Caption = "Sales Person"
 			Me.fieldSalesPerson1.FieldName = "Sales Person"
 			Me.fieldSalesPerson1.Name = "fieldSalesPerson1"
-			' 
-			' fieldQuantityDistinctCount
-			' 
-			Me.fieldQuantityDistinctCount.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea
-			Me.fieldQuantityDistinctCount.AreaIndex = 1
-			Me.fieldQuantityDistinctCount.Caption = "Count Distinct "
-			Me.fieldQuantityDistinctCount.FieldName = "Quantity"
-			Me.fieldQuantityDistinctCount.Name = "fieldQuantityDistinctCount"
-			Me.fieldQuantityDistinctCount.SummaryType = DevExpress.Data.PivotGrid.PivotSummaryType.Custom
 			' 
 			' Form1
 			' 
