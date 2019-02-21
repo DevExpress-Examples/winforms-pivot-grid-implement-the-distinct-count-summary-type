@@ -23,3 +23,6 @@ API in this example:
 * [Pivot Grid Expression Syntax](https://docs.devexpress.com/CoreLibraries/120512)
 * [Unbound Fields](https://docs.devexpress.com/WindowsForms/1799)
 * [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)
+
+Examples for other platforms:
+* [WPF -  How to Create a Custom Summary Type to Display the Distinct Value Count](https://github.com/DevExpress-Examples/how-to-implement-custom-summary-e2136)
