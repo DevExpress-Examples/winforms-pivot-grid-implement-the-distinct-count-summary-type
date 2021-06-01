@@ -17,12 +17,12 @@ API in this example:
 * [PivotDrillDownDataRow](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotDrillDownDataRow) class
 * [PivotGridCustomSummaryEventArgs.CustomValue](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.Data.PivotGridCustomSummaryEventArgsBase-1.CustomValue) property
 
-**See also:**
+## Documentation 
 
 * [Summarization](https://docs.devexpress.com/WindowsForms/11728)
 * [Pivot Grid Expression Syntax](https://docs.devexpress.com/CoreLibraries/120512)
 * [Unbound Fields](https://docs.devexpress.com/WindowsForms/1799)
 * [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)
 
-Examples for other platforms:
+## More Examples
 * [WPF -  How to Create a Custom Summary Type to Display the Distinct Value Count](https://github.com/DevExpress-Examples/how-to-implement-custom-summary-e2136)
