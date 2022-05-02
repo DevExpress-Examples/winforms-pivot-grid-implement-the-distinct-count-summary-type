@@ -9,11 +9,11 @@ namespace CustomSummaryDistinctCountExample
     {
         public Form1()
         {
+            DevExpress.Data.Filtering.CriteriaOperator.RegisterCustomFunction(new DistinctCountFunction());
             InitializeComponent();
-            AddCustomSummaryField();
-            pivotGridControl1.CustomSummary += PivotGridControl1_CustomSummary;
             pivotGridControl1.BestFit();
-        }
+            excelDataSource1.Fill();
+       }
 
         private void AddCustomSummaryField()
         {
@@ -30,8 +30,6 @@ namespace CustomSummaryDistinctCountExample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            excelDataSource1.FileName = "SalesPerson.xlsx";
-            excelDataSource1.Fill();
         }
 
         private void PivotGridControl1_CustomSummary(object sender, PivotGridCustomSummaryEventArgs e)

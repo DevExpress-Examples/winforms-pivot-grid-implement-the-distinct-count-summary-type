@@ -25,139 +25,118 @@
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
 			Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-			Dim fieldInfo21 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo22 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo23 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo24 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo25 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo26 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo27 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo28 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo29 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim fieldInfo30 As New DevExpress.DataAccess.Excel.FieldInfo()
-			Dim excelWorksheetSettings3 As New DevExpress.DataAccess.Excel.ExcelWorksheetSettings()
-			Dim excelSourceOptions3 As New DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings3)
+			Dim fieldInfo1 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo2 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo3 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo4 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo5 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo6 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo7 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo8 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo9 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim fieldInfo10 As New DevExpress.DataAccess.Excel.FieldInfo()
+			Dim excelWorksheetSettings1 As New DevExpress.DataAccess.Excel.ExcelWorksheetSettings()
+			Dim excelSourceOptions1 As New DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings1)
+			Dim dataSourceColumnBinding1 As New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+			Dim dataSourceColumnBinding2 As New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+			Dim dataSourceColumnBinding3 As New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+			Dim expressionDataBinding1 As New DevExpress.XtraPivotGrid.ExpressionDataBinding()
+			Dim dataSourceColumnBinding4 As New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
 			Me.pivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
-			Me.salesPersonBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.excelDataSource1 = New DevExpress.DataAccess.Excel.ExcelDataSource()
-			Me.fieldOrderID1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldCountry1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldFirstName1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldLastName1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldProductName1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldCategoryName1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldOrderDate1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldUnitPrice1 = New DevExpress.XtraPivotGrid.PivotGridField()
+			Me.field1 = New DevExpress.XtraPivotGrid.PivotGridField()
+			Me.field = New DevExpress.XtraPivotGrid.PivotGridField()
+			Me.field2 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldQuantity1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldDiscount1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldExtendedPrice1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.fieldSalesPerson1 = New DevExpress.XtraPivotGrid.PivotGridField()
+			Me.salesPersonBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.fieldQuantityDistinctCount = New DevExpress.XtraPivotGrid.PivotGridField()
-			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+			Me.pivotGridField1 = New DevExpress.XtraPivotGrid.PivotGridField()
+			Me.pivotGridField2 = New DevExpress.XtraPivotGrid.PivotGridField()
+			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' pivotGridControl1
 			' 
 			Me.pivotGridControl1.DataSource = Me.excelDataSource1
 			Me.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-			Me.pivotGridControl1.Fields.AddRange(New DevExpress.XtraPivotGrid.PivotGridField() { Me.fieldOrderID1, Me.fieldCountry1, Me.fieldFirstName1, Me.fieldLastName1, Me.fieldProductName1, Me.fieldCategoryName1, Me.fieldOrderDate1, Me.fieldUnitPrice1, Me.fieldQuantity1, Me.fieldDiscount1, Me.fieldExtendedPrice1, Me.fieldSalesPerson1})
+			Me.pivotGridControl1.Fields.AddRange(New DevExpress.XtraPivotGrid.PivotGridField() { Me.field1, Me.field, Me.field2, Me.fieldQuantity1, Me.pivotGridField1, Me.pivotGridField2})
 			Me.pivotGridControl1.Location = New System.Drawing.Point(0, 0)
 			Me.pivotGridControl1.Name = "pivotGridControl1"
+			Me.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized
 			Me.pivotGridControl1.Size = New System.Drawing.Size(775, 447)
 			Me.pivotGridControl1.TabIndex = 0
 			' 
 			' excelDataSource1
 			' 
-			Me.excelDataSource1.FileName = "C:\Data\SalesPerson.xlsx"
+			Me.excelDataSource1.FileName = "\Data\SalesPerson.xlsx"
 			Me.excelDataSource1.Name = "excelDataSource1"
 			Me.excelDataSource1.ResultSchemaSerializable = resources.GetString("excelDataSource1.ResultSchemaSerializable")
-			fieldInfo21.Name = "CategoryName"
-			fieldInfo21.Type = GetType(String)
-			fieldInfo22.Name = "Country"
-			fieldInfo22.Type = GetType(String)
-			fieldInfo23.Name = "ProductName"
-			fieldInfo23.Type = GetType(String)
-			fieldInfo24.Name = "Sales Person"
-			fieldInfo24.Type = GetType(String)
-			fieldInfo25.Name = "OrderDate"
-			fieldInfo25.Type = GetType(Date)
-			fieldInfo26.Name = "OrderID"
-			fieldInfo26.Type = GetType(Double)
-			fieldInfo27.Name = "Quantity"
-			fieldInfo27.Type = GetType(Double)
-			fieldInfo28.Name = "Discount"
-			fieldInfo28.Type = GetType(Double)
-			fieldInfo29.Name = "Extended Price"
-			fieldInfo29.Type = GetType(Double)
-			fieldInfo30.Name = "UnitPrice"
-			fieldInfo30.Type = GetType(Double)
-			Me.excelDataSource1.Schema.AddRange(New DevExpress.DataAccess.Excel.FieldInfo() { fieldInfo21, fieldInfo22, fieldInfo23, fieldInfo24, fieldInfo25, fieldInfo26, fieldInfo27, fieldInfo28, fieldInfo29, fieldInfo30})
-			excelWorksheetSettings3.CellRange = Nothing
-			excelWorksheetSettings3.WorksheetName = "Data"
-			excelSourceOptions3.ImportSettings = excelWorksheetSettings3
-			Me.excelDataSource1.SourceOptions = excelSourceOptions3
+			fieldInfo1.Name = "CategoryName"
+			fieldInfo1.OriginalName = Nothing
+			fieldInfo1.Type = GetType(String)
+			fieldInfo2.Name = "Country"
+			fieldInfo2.OriginalName = Nothing
+			fieldInfo2.Type = GetType(String)
+			fieldInfo3.Name = "ProductName"
+			fieldInfo3.OriginalName = Nothing
+			fieldInfo3.Type = GetType(String)
+			fieldInfo4.Name = "Sales Person"
+			fieldInfo4.OriginalName = Nothing
+			fieldInfo4.Type = GetType(String)
+			fieldInfo5.Name = "OrderDate"
+			fieldInfo5.OriginalName = Nothing
+			fieldInfo5.Type = GetType(Date)
+			fieldInfo6.Name = "OrderID"
+			fieldInfo6.OriginalName = Nothing
+			fieldInfo6.Type = GetType(Double)
+			fieldInfo7.Name = "Quantity"
+			fieldInfo7.OriginalName = Nothing
+			fieldInfo7.Type = GetType(Double)
+			fieldInfo8.Name = "Discount"
+			fieldInfo8.OriginalName = Nothing
+			fieldInfo8.Type = GetType(Double)
+			fieldInfo9.Name = "Extended Price"
+			fieldInfo9.OriginalName = Nothing
+			fieldInfo9.Type = GetType(Double)
+			fieldInfo10.Name = "UnitPrice"
+			fieldInfo10.OriginalName = Nothing
+			fieldInfo10.Type = GetType(Double)
+			Me.excelDataSource1.Schema.AddRange(New DevExpress.DataAccess.Excel.FieldInfo() { fieldInfo1, fieldInfo2, fieldInfo3, fieldInfo4, fieldInfo5, fieldInfo6, fieldInfo7, fieldInfo8, fieldInfo9, fieldInfo10})
+			excelWorksheetSettings1.CellRange = Nothing
+			excelWorksheetSettings1.WorksheetIndex = Nothing
+			excelWorksheetSettings1.WorksheetName = "Data"
+			excelSourceOptions1.ImportSettings = excelWorksheetSettings1
+			Me.excelDataSource1.SourceOptions = excelSourceOptions1
 			' 
-			' fieldOrderID1
+			' field1
 			' 
-			Me.fieldOrderID1.AreaIndex = 0
-			Me.fieldOrderID1.Caption = "Order ID"
-			Me.fieldOrderID1.FieldName = "OrderID"
-			Me.fieldOrderID1.Name = "fieldOrderID1"
+			Me.field1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea
+			Me.field1.AreaIndex = 1
+			Me.field1.Caption = "Product Name"
+			dataSourceColumnBinding1.ColumnName = "ProductName"
+			Me.field1.DataBinding = dataSourceColumnBinding1
+			Me.field1.Name = "field1"
 			' 
-			' fieldCountry1
+			' field
 			' 
-			Me.fieldCountry1.AreaIndex = 1
-			Me.fieldCountry1.Caption = "Country"
-			Me.fieldCountry1.FieldName = "Country"
-			Me.fieldCountry1.Name = "fieldCountry1"
+			Me.field.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea
+			Me.field.AreaIndex = 0
+			Me.field.Caption = "Category Name"
+			dataSourceColumnBinding2.ColumnName = "CategoryName"
+			Me.field.DataBinding = dataSourceColumnBinding2
+			Me.field.Name = "field"
 			' 
-			' fieldFirstName1
+			' field2
 			' 
-			Me.fieldFirstName1.AreaIndex = 2
-			Me.fieldFirstName1.Caption = "First Name"
-			Me.fieldFirstName1.FieldName = "FirstName"
-			Me.fieldFirstName1.Name = "fieldFirstName1"
-			' 
-			' fieldLastName1
-			' 
-			Me.fieldLastName1.AreaIndex = 3
-			Me.fieldLastName1.Caption = "Last Name"
-			Me.fieldLastName1.FieldName = "LastName"
-			Me.fieldLastName1.Name = "fieldLastName1"
-			' 
-			' fieldProductName1
-			' 
-			Me.fieldProductName1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea
-			Me.fieldProductName1.AreaIndex = 1
-			Me.fieldProductName1.Caption = "Product Name"
-			Me.fieldProductName1.FieldName = "ProductName"
-			Me.fieldProductName1.Name = "fieldProductName1"
-			' 
-			' fieldCategoryName1
-			' 
-			Me.fieldCategoryName1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea
-			Me.fieldCategoryName1.AreaIndex = 0
-			Me.fieldCategoryName1.Caption = "Category Name"
-			Me.fieldCategoryName1.FieldName = "CategoryName"
-			Me.fieldCategoryName1.Name = "fieldCategoryName1"
-			' 
-			' fieldOrderDate1
-			' 
-			Me.fieldOrderDate1.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea
-			Me.fieldOrderDate1.AreaIndex = 0
-			Me.fieldOrderDate1.Caption = "OrderDate"
-			Me.fieldOrderDate1.FieldName = "OrderDate"
-			Me.fieldOrderDate1.GroupInterval = DevExpress.XtraPivotGrid.PivotGroupInterval.DateYear
-			Me.fieldOrderDate1.Name = "fieldOrderDate1"
-			Me.fieldOrderDate1.UnboundFieldName = "fieldOrderDate1"
-			' 
-			' fieldUnitPrice1
-			' 
-			Me.fieldUnitPrice1.AreaIndex = 4
-			Me.fieldUnitPrice1.Caption = "Unit Price"
-			Me.fieldUnitPrice1.FieldName = "UnitPrice"
-			Me.fieldUnitPrice1.Name = "fieldUnitPrice1"
+			Me.field2.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea
+			Me.field2.AreaIndex = 0
+			Me.field2.Caption = "OrderDate"
+			dataSourceColumnBinding3.ColumnName = "OrderDate"
+			dataSourceColumnBinding3.GroupInterval = DevExpress.XtraPivotGrid.PivotGroupInterval.DateYear
+			Me.field2.DataBinding = dataSourceColumnBinding3
+			Me.field2.Name = "field2"
+			Me.field2.UnboundFieldName = "fieldOrderDate1"
 			' 
 			' fieldQuantity1
 			' 
@@ -167,26 +146,25 @@
 			Me.fieldQuantity1.FieldName = "Quantity"
 			Me.fieldQuantity1.Name = "fieldQuantity1"
 			' 
-			' fieldDiscount1
+			' fieldQuantityDistinctCount
 			' 
-			Me.fieldDiscount1.AreaIndex = 5
-			Me.fieldDiscount1.Caption = "Discount"
-			Me.fieldDiscount1.FieldName = "Discount"
-			Me.fieldDiscount1.Name = "fieldDiscount1"
+			Me.fieldQuantityDistinctCount.Name = "fieldQuantityDistinctCount"
 			' 
-			' fieldExtendedPrice1
+			' pivotGridField1
 			' 
-			Me.fieldExtendedPrice1.AreaIndex = 6
-			Me.fieldExtendedPrice1.Caption = "Extended Price"
-			Me.fieldExtendedPrice1.FieldName = "Extended Price"
-			Me.fieldExtendedPrice1.Name = "fieldExtendedPrice1"
+			Me.pivotGridField1.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea
+			Me.pivotGridField1.AreaIndex = 1
+			Me.pivotGridField1.Caption = "Order Distinct Count"
+			expressionDataBinding1.Expression = "DistinctCount([OrderID])"
+			Me.pivotGridField1.DataBinding = expressionDataBinding1
+			Me.pivotGridField1.Name = "pivotGridField1"
 			' 
-			' fieldSalesPerson1
+			' pivotGridField2
 			' 
-			Me.fieldSalesPerson1.AreaIndex = 7
-			Me.fieldSalesPerson1.Caption = "Sales Person"
-			Me.fieldSalesPerson1.FieldName = "Sales Person"
-			Me.fieldSalesPerson1.Name = "fieldSalesPerson1"
+			Me.pivotGridField2.AreaIndex = 0
+			dataSourceColumnBinding4.ColumnName = "OrderID"
+			Me.pivotGridField2.DataBinding = dataSourceColumnBinding4
+			Me.pivotGridField2.Name = "pivotGridField2"
 			' 
 			' Form1
 			' 
@@ -198,7 +176,8 @@
 			Me.Text = "Custom Summary Distinct Count"
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
 'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
-			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
@@ -207,20 +186,14 @@
 
 		Private pivotGridControl1 As DevExpress.XtraPivotGrid.PivotGridControl
 		Private salesPersonBindingSource As System.Windows.Forms.BindingSource
-		Private fieldOrderID1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldCountry1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldFirstName1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldLastName1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldProductName1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldCategoryName1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldOrderDate1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldUnitPrice1 As DevExpress.XtraPivotGrid.PivotGridField
+		Private field1 As DevExpress.XtraPivotGrid.PivotGridField
+		Private field As DevExpress.XtraPivotGrid.PivotGridField
+		Private field2 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldQuantity1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldDiscount1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldExtendedPrice1 As DevExpress.XtraPivotGrid.PivotGridField
-		Private fieldSalesPerson1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldQuantityDistinctCount As DevExpress.XtraPivotGrid.PivotGridField
 		Private excelDataSource1 As DevExpress.DataAccess.Excel.ExcelDataSource
+		Private pivotGridField1 As DevExpress.XtraPivotGrid.PivotGridField
+		Private pivotGridField2 As DevExpress.XtraPivotGrid.PivotGridField
 	End Class
 End Namespace
 
