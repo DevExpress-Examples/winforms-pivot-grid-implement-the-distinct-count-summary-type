@@ -14,7 +14,7 @@ This example demonstrates how to count distinct values (the number of orders wit
 | --- | --- |
 | Count Distinct| ```DistinctCount([OrderID])``` |
 
-Call the [CriteriaOperator.RegisterCustomFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.Filtering.CriteriaOperator.RegisterCustomFunction(DevExpress.Data.Filtering.ICustomFunctionOperator)) method to register a custom function in your project (see [MainWindow.xaml.cs](./CS/DXPivotGrid_CustomSummary/MainWindow.xaml.cs#L18)/[MainWindow.xaml.vb](./VB/DXPivotGrid_CustomSummary/MainWindow.xaml.vb#L18)).
+Call the [CriteriaOperator.RegisterCustomFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.Filtering.CriteriaOperator.RegisterCustomFunction(DevExpress.Data.Filtering.ICustomFunctionOperator)) method to register a custom function in your project (see [Form1.cs](./CS/CustomSummaryDistinctCountExample/Form1.cs#L7)/[Form1.vb](./VB/CustomSummaryDistinctCountExample/Form1.vb#L8)).
 
 ## Files to Review
 
@@ -22,9 +22,9 @@ Call the [CriteriaOperator.RegisterCustomFunction](https://docs.devexpress.com/C
 
 ## Documentation 
 
-* [Summarization](https://docs.devexpress.com/WindowsForms/11728)
+* [Summarization](https://docs.devexpress.com/WindowsForms/9384)
 * [Pivot Grid Expression Syntax](https://docs.devexpress.com/CoreLibraries/120512)
-* [Unbound Fields](https://docs.devexpress.com/WindowsForms/1799)
+* [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.com/WindowsForms/1799)
 * [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)
 
 ## More Examples
