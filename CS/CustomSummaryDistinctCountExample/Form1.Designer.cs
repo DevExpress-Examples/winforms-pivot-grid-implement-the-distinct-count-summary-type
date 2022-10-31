@@ -195,7 +195,6 @@
             this.Controls.Add(this.pivotGridControl1);
             this.Name = "Form1";
             this.Text = "Custom Summary Distinct Count";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesPersonBindingSource)).EndInit();
             this.ResumeLayout(false);
